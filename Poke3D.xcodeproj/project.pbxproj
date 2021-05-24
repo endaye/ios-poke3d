@@ -57,14 +57,30 @@
 			isa = PBXGroup;
 			children = (
 				203966F4265B8E0E00BBB7A3 /* AppDelegate.swift */,
+				20EADF21265B945300AFC511 /* Controller */,
+				20EADF20265B944900AFC511 /* View */,
 				203966F6265B8E0E00BBB7A3 /* art.scnassets */,
-				203966F8265B8E0E00BBB7A3 /* ViewController.swift */,
-				203966FA265B8E0E00BBB7A3 /* Main.storyboard */,
 				203966FD265B8E0F00BBB7A3 /* Assets.xcassets */,
-				203966FF265B8E0F00BBB7A3 /* LaunchScreen.storyboard */,
 				20396702265B8E0F00BBB7A3 /* Info.plist */,
 			);
 			path = Poke3D;
+			sourceTree = "<group>";
+		};
+		20EADF20265B944900AFC511 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				203966FF265B8E0F00BBB7A3 /* LaunchScreen.storyboard */,
+				203966FA265B8E0E00BBB7A3 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20EADF21265B945300AFC511 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				203966F8265B8E0E00BBB7A3 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
